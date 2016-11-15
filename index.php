@@ -3,6 +3,6 @@
  
  admin_header();
  
- admin_stranky()
+ admin_stranky();
 
 ?>
