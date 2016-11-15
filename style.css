@@ -1,0 +1,163 @@
+/* CSS Document */
+
+.lista{
+top: 0;
+left: 0;
+width: 100%;
+height: 30px;
+min-width: 600px;
+color: #ccc;
+z-index: 99999;
+background-color: #222;
+position: fixed;
+}
+
+.lista_position{
+ width: 100%;
+ height: 30px;
+ top: 0;
+ left: 0;
+ position: relative;
+}
+
+.menu {
+ color: #000000; 
+ top: 30px;
+ left: 0;
+ width: 215px;
+ height: 100%; 
+ display: block;
+ background-color: #222; 
+ position: fixed;
+ }
+  
+.menu ul {
+ margin-top: -24px;
+ position: absolute; 
+ visibility: hidden;
+ margin-left: 218px;
+ padding: 0;
+ list-style-type: none;
+ }
+ 
+.menu li {
+ float: left; 
+ padding: 2px 2px 0 2px; 
+ position:relative;
+ left: 0;
+ width: 208px; 
+ white-space: nowrap;   
+ }  
+
+.menu li:hover a {
+ width: 200px; 
+ padding-right: 7px;
+ padding-left: 7px;
+ padding-top: 1px;
+ padding-bottom: 1px;
+ left: -4px;
+ position: relative;
+ text-align: left; 
+ color: #fff; 
+ display: block; 
+ text-decoration: none; 
+ font-weight: bold;
+ background-color: #00286A;
+ }
+  
+.menu li a {
+ width: 200px; 
+ font-family: "Open Sans",sans-serif;
+ padding-right: 7px;
+ padding-left: 7px;
+ padding-top: 1px;
+ padding-bottom: 1px;
+ left: -4px;
+ position: relative;
+ text-align: left; 
+ color: #fff; 
+ display: block; 
+ background-color: #1C1C1C;
+ text-decoration: none; 
+ font-weight: bold;
+ }
+
+.menu li li:hover a {
+ width: 200px; 
+ padding-right: 7px;
+ padding-left: 7px;
+ padding-top: 1px;
+ padding-bottom: 1px;
+ font-family: "Open Sans",sans-serif;
+ left: -4px;
+ position: relative;
+ text-align: left; 
+ color: #fff; 
+ display: block; 
+ text-decoration: none; 
+ font-weight: bold;
+ background-color: #1d4d9e;
+ }
+ 
+
+ 
+.menu li li a {
+ width: 200px; 
+ padding-right: 7px;
+ padding-left: 7px;
+ padding-top: 1px;
+ padding-bottom: 1px;
+ font-family: "Open Sans",sans-serif;
+ left: -4px;
+ position: relative;
+ text-align: left; 
+ color: #fff; 
+ display: block; 
+ text-decoration: none; 
+ font-weight: bold;
+ background-color: #00286A;
+ }          
+
+.menu ul ul a:hover {
+ color: #4f4f4f; 
+ background-color: rgb(233,233,233);
+ }
+
+ .menu li:hover ul{
+  visibility: visible;
+ }
+ 
+  .menu li:hover .nadrazena a{
+  width: 218px;
+  border-bottom: 2px solid #2349B0;
+ }
+
+  .menu li .nadrazena a{
+  border-bottom: 2px solid #2349B0;
+ }
+ 
+ .menu li ul{
+  visibility: hidden;
+ }
+ 
+.menu li li {
+ float: none; 
+ border: none; 
+ padding: 0; 
+ margin: 0;
+ }
+ 
+  .menu li .start li a, .menu li .start li:hover a {
+ -webkit-border-top-right-radius: 10px;
+ -moz-border-radius-topright: 10px;
+ border-top-right-radius: 10px;
+ }
+    
+ .menu li .end li a, .menu li .end li:hover a {
+ -webkit-border-bottom-right-radius: 10px;
+ -webkit-border-bottom-left-radius: 10px;
+ -moz-border-radius-bottomright: 10px;
+ -moz-border-radius-bottomleft: 10px;
+ border-bottom-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+ } 
